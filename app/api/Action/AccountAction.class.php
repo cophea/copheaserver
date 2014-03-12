@@ -86,12 +86,13 @@ class AccountAction extends Action
 	 * @return json 返回操作后的JSON信息数据
 	 */
     public function doModifyPassword() {
-    	$_POST = getRequest();
     	$_POST['oldpassword'] = I('post.oldpassword');
     	$_POST['password'] = I('post.password');
     	$_POST['repassword'] = I('post.repassword');
-    	// 验证信息
+    	  
+        // 验证信息
     	if ($_POST['oldpassword'] === '') {
+    	   
     		$this->ajaxReturn(array('data'=>null,'info'=>'请填写原始密码','status'=>0),'JSONP');
     	}
     	if ($_POST['password'] === '') {
@@ -112,22 +113,21 @@ class AccountAction extends Action
 		if($_POST['password'] == $_POST['oldpassword']) {
 			$this->ajaxReturn(array('data'=>null,'info'=>'新密码与旧密码相同','status'=>0),'JSONP');
 		}
+        
 
     	$user_model = D('User');
-    	$map['uid'] = $this->mid;
+    	$map['uid'] =  intval($_SESSION['mid']);
     	$user_info = $user_model->where($map)->find();
-
     	if($user_info['password'] == $user_model->encryptPassword($_POST['oldpassword'], $user_info['login_salt'])) {
 			$data['login_salt'] = rand(11111, 99999);
 			$data['password'] = $user_model->encryptPassword($_POST['password'], $data['login_salt']);
-			$res = $user_model->where("`uid`={$this->mid}")->save($data);
-    		$info = $res ? L('PUBLIC_PASSWORD_MODIFY_SUCCESS') : L('PUBLIC_PASSWORD_MODIFY_FAIL');			// 密码修改成功，密码修改失败
+			$res = $user_model->where($map)->save($data);
+    		$info =$res ? L('PUBLIC_PASSWORD_MODIFY_SUCCESS') : L('PUBLIC_PASSWORD_MODIFY_FAIL');			// 密码修改成功，密码修改失败
+            $this->ajaxReturn(array('data'=>null, 'info'=>$info, 'status'=>1));
     	} else {
     		$info = L('PUBLIC_ORIGINAL_PASSWORD_ERROR');			// 原始密码错误
+            $this->ajaxReturn(array('data'=>null, 'info'=>$info, 'status'=>0));
     	}
-    	return $this->ajaxReturn(null, $info, $res);
-    	
-    	$this->ajaxReturn(array('data'=>null,'info'=>'','status'=>1));
     }
 
     /**

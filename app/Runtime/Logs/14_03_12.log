@@ -4667,3 +4667,692 @@ ERR: 1054:Unknown column 'corp_id' in 'field list'
 SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.015070s ]
 SQL: UPDATE `coph_login_record` SET `ip`='127.0.0.1',`ctime`=1394613655,`locktime`=0 WHERE ( uid = 1 ) [ RunTime:0.019697s ]
 
+[ 2014-03-12T16:49:41+08:00 ] 127.0.0.1 /copheaserver/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000226s ]
+
+[ 2014-03-12T16:49:55+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000199s ]
+
+[ 2014-03-12T16:50:07+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Passport/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.014630s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.019004s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.019759s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.003957s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES (1,'127.0.0.1',1394614207) [ RunTime:0.023166s ]
+SQL: SELECT `corp_id` FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.002231s ]
+ERR: 1054:Unknown column 'corp_id' in 'field list'
+ [ SQL语句 ] : SELECT `corp_id` FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.070706s ]
+SQL: UPDATE `coph_login_record` SET `ip`='127.0.0.1',`ctime`=1394614207,`locktime`=0 WHERE ( uid = 1 ) [ RunTime:0.023622s ]
+
+[ 2014-03-12T16:51:36+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+
+[ 2014-03-12T16:51:41+08:00 ] 127.0.0.1 /copheaserver/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000216s ]
+
+[ 2014-03-12T16:51:53+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+
+[ 2014-03-12T16:53:42+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+
+[ 2014-03-12T16:56:35+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+
+[ 2014-03-12T16:56:39+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Passport/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.003479s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.004457s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.002156s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.003328s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES (1,'127.0.0.1',1394614599) [ RunTime:0.001978s ]
+SQL: SELECT `corp_id` FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.002039s ]
+ERR: 1054:Unknown column 'corp_id' in 'field list'
+ [ SQL语句 ] : SELECT `corp_id` FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.003197s ]
+SQL: UPDATE `coph_login_record` SET `ip`='127.0.0.1',`ctime`=1394614599,`locktime`=0 WHERE ( uid = 1 ) [ RunTime:0.002110s ]
+
+[ 2014-03-12T16:56:46+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+
+[ 2014-03-12T16:57:51+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000201s ]
+
+[ 2014-03-12T16:57:54+08:00 ] 127.0.0.1 /copheaserver/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000212s ]
+
+[ 2014-03-12T16:58:05+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000169s ]
+
+[ 2014-03-12T16:58:17+08:00 ] 127.0.0.1 /copheaserver/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000230s ]
+
+[ 2014-03-12T16:58:19+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Passport/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.003196s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.004431s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.002175s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.003733s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES (1,'127.0.0.1',1394614699) [ RunTime:0.002186s ]
+SQL: SELECT `corp_id` FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.002130s ]
+ERR: 1054:Unknown column 'corp_id' in 'field list'
+ [ SQL语句 ] : SELECT `corp_id` FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.003541s ]
+SQL: UPDATE `coph_login_record` SET `ip`='127.0.0.1',`ctime`=1394614699,`locktime`=0 WHERE ( uid = 1 ) [ RunTime:0.002255s ]
+
+[ 2014-03-12T16:59:29+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+
+[ 2014-03-12T17:00:57+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+
+[ 2014-03-12T17:00:59+08:00 ] 127.0.0.1 /copheaserver/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2014-03-12T17:01:10+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000185s ]
+
+[ 2014-03-12T17:01:40+08:00 ] 127.0.0.1 /copheaserver/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000155s ]
+
+[ 2014-03-12T17:01:52+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+
+[ 2014-03-12T17:02:05+08:00 ] 127.0.0.1 /copheaserver/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000235s ]
+
+[ 2014-03-12T17:02:09+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+
+[ 2014-03-12T17:02:32+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000183s ]
+
+[ 2014-03-12T17:02:41+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+
+[ 2014-03-12T17:03:13+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+
+[ 2014-03-12T17:03:51+08:00 ] 127.0.0.1 /copheaserver/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003945s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000240s ]
+
+[ 2014-03-12T17:03:54+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+
+[ 2014-03-12T17:04:15+08:00 ] 127.0.0.1 /copheaserver/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000203s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000231s ]
+
+[ 2014-03-12T17:04:16+08:00 ] 127.0.0.1 /copheaserver/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000209s ]
+
+[ 2014-03-12T17:04:18+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+
+[ 2014-03-12T17:04:23+08:00 ] 127.0.0.1 /copheaserver/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000152s ]
+
+[ 2014-03-12T17:04:25+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+
+[ 2014-03-12T17:05:10+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+
+[ 2014-03-12T17:05:33+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+
+[ 2014-03-12T17:06:42+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+SQL: SELECT * FROM `coph_user` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.003345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2014-03-12T17:06:54+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Passport/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.003471s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.018759s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.002456s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.003610s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES (1,'127.0.0.1',1394615214) [ RunTime:0.012987s ]
+SQL: SELECT `corp_id` FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.003940s ]
+ERR: 1054:Unknown column 'corp_id' in 'field list'
+ [ SQL语句 ] : SELECT `corp_id` FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.003609s ]
+SQL: UPDATE `coph_login_record` SET `ip`='127.0.0.1',`ctime`=1394615214,`locktime`=0 WHERE ( uid = 1 ) [ RunTime:0.004631s ]
+
+[ 2014-03-12T17:07:13+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+
+[ 2014-03-12T17:07:41+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+SQL: SELECT * FROM `coph_user` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.003314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2014-03-12T17:09:29+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SELECT * FROM `coph_user` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.002983s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2014-03-12T17:09:33+08:00 ] 127.0.0.1 /copheaserver/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000212s ]
+
+[ 2014-03-12T17:09:45+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+SQL: SELECT * FROM `coph_user` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.002732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000274s ]
+
+[ 2014-03-12T17:12:57+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+SQL: SELECT * FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.004273s ]
+SQL: UPDATE `coph_user` SET `login_salt`=70906,`password`='dee1cb487005a0620ebf099cc6d7ccef' WHERE ( `uid`= ) [ RunTime:0.002314s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `coph_user` SET `login_salt`=70906,`password`='dee1cb487005a0620ebf099cc6d7ccef' WHERE ( `uid`= )
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2014-03-12T17:14:55+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000178s ]
+SQL: SELECT * FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.005018s ]
+SQL: UPDATE `coph_user` SET `login_salt`=46668,`password`='3b3b1d56173b7b781c1ed84d228ba2fd' WHERE ( `uid` = 1 ) [ RunTime:0.027190s ]
+
+[ 2014-03-12T17:15:00+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Passport/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.006284s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.037553s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.002064s ]
+NOTIC: [8] Undefined index: ts C:\Program Files (x86)\Zend\Apache2\htdocs\copheaserver\app\Api\Action\PassportAction.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 1 C:\Program Files (x86)\Zend\Apache2\htdocs\copheaserver\app\Common\Model\LogsModel.class.php 第 36 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Program Files (x86)\Zend\Apache2\htdocs\copheaserver\app\Common\Model\LogsModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: ts C:\Program Files (x86)\Zend\Apache2\htdocs\copheaserver\app\Common\Model\LogsModel.class.php 第 58 行.
+SQL: INSERT INTO `coph_x_logs` (`uid`,`uname`,`app_name`,`group`,`action`,`data`,`ctime`,`url`,`isAdmin`,`ip`,`keyword`,`corp_id`) VALUES (null,null,'public',null,'login','a:1:{s:5:\"uname\";N;}',1394615700,'/copheaserver/index.php/Api/Passport/doLogin.html',0,'127.0.0.1','',null) [ RunTime:0.002124s ]
+ERR: 1054:Unknown column 'corp_id' in 'field list'
+ [ SQL语句 ] : INSERT INTO `coph_x_logs` (`uid`,`uname`,`app_name`,`group`,`action`,`data`,`ctime`,`url`,`isAdmin`,`ip`,`keyword`,`corp_id`) VALUES (null,null,'public',null,'login','a:1:{s:5:\"uname\";N;}',1394615700,'/copheaserver/index.php/Api/Passport/doLogin.html',0,'127.0.0.1','',null)
+
+[ 2014-03-12T17:15:09+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Passport/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.004530s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.020244s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.004033s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.003703s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES (1,'127.0.0.1',1394615709) [ RunTime:0.016837s ]
+SQL: SELECT `corp_id` FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.002198s ]
+ERR: 1054:Unknown column 'corp_id' in 'field list'
+ [ SQL语句 ] : SELECT `corp_id` FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.005110s ]
+SQL: UPDATE `coph_login_record` SET `ip`='127.0.0.1',`ctime`=1394615709,`locktime`=0 WHERE ( uid = 1 ) [ RunTime:0.003368s ]
+
+[ 2014-03-12T17:15:14+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SELECT * FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.005528s ]
+
+[ 2014-03-12T17:16:47+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SELECT * FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.003244s ]
+NOTIC: [8] Undefined variable: res C:\Program Files (x86)\Zend\Apache2\htdocs\copheaserver\app\Api\Action\AccountAction.class.php 第 129 行.
+
+[ 2014-03-12T17:21:47+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: SELECT * FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.003239s ]
+
+[ 2014-03-12T17:22:11+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Passport/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.003194s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.007312s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.003266s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.003811s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES (1,'127.0.0.1',1394616131) [ RunTime:0.045526s ]
+SQL: SELECT `corp_id` FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.002136s ]
+ERR: 1054:Unknown column 'corp_id' in 'field list'
+ [ SQL语句 ] : SELECT `corp_id` FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.004336s ]
+SQL: UPDATE `coph_login_record` SET `ip`='127.0.0.1',`ctime`=1394616131,`locktime`=0 WHERE ( uid = 1 ) [ RunTime:0.022904s ]
+
+[ 2014-03-12T17:22:16+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Passport/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.003327s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.007584s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.002213s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.003698s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES (1,'127.0.0.1',1394616136) [ RunTime:0.007126s ]
+SQL: SELECT `corp_id` FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.002264s ]
+ERR: 1054:Unknown column 'corp_id' in 'field list'
+ [ SQL语句 ] : SELECT `corp_id` FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.013228s ]
+SQL: UPDATE `coph_login_record` SET `ip`='127.0.0.1',`ctime`=1394616136,`locktime`=0 WHERE ( uid = 1 ) [ RunTime:0.002789s ]
+
+[ 2014-03-12T17:23:00+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Passport/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.003194s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.003956s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.002362s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.003711s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES (1,'127.0.0.1',1394616180) [ RunTime:0.002207s ]
+SQL: SELECT `corp_id` FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.002059s ]
+ERR: 1054:Unknown column 'corp_id' in 'field list'
+ [ SQL语句 ] : SELECT `corp_id` FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.003520s ]
+SQL: UPDATE `coph_login_record` SET `ip`='127.0.0.1',`ctime`=1394616180,`locktime`=0 WHERE ( uid = 1 ) [ RunTime:0.002926s ]
+
+[ 2014-03-12T17:23:51+08:00 ] 127.0.0.1 /copheaserver/index.php/Api/Account/doModifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SELECT * FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.003152s ]
+SQL: UPDATE `coph_user` SET `login_salt`=41577,`password`='7b006325a0a65c1c061b39e786ea19a4' WHERE ( `uid` = 1 ) [ RunTime:0.041808s ]
+
