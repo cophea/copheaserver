@@ -1,0 +1,2325 @@
+[ 2014-03-10T03:14:06+08:00 ] ::1 /cophea/copheaserver/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002383s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2014-03-10T19:59:42+08:00 ] ::1 /cophea/copheaserver/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016886s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001296s ]
+
+[ 2014-03-10T20:00:43+08:00 ] ::1 /cophea/copheaserver/?jsonpcallback=jQuery111001259535658173263_1394452843153&_=1394452843154
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000143s ]
+
+[ 2014-03-10T20:00:55+08:00 ] ::1 /cophea/copheaserver/?jsonpcallback=jQuery111009390151172410697_1394452854993&_=1394452854994
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000199s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000127s ]
+
+[ 2014-03-10T20:08:20+08:00 ] ::1 /cophea/copheaserver/api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000168s ]
+ERR: 无法加载控制器:Index
+
+[ 2014-03-10T20:08:33+08:00 ] ::1 /cophea/copheaserver/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+ERR: 无法加载控制器:Index
+
+[ 2014-03-10T20:08:36+08:00 ] ::1 /cophea/copheaserver/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+ERR: 无法加载控制器:Index
+
+[ 2014-03-10T20:08:51+08:00 ] ::1 /cophea/copheaserver/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+ERR: 无法加载控制器:Index
+
+[ 2014-03-10T20:08:53+08:00 ] ::1 /cophea/copheaserver/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+ERR: 无法加载控制器:Index
+
+[ 2014-03-10T20:09:00+08:00 ] ::1 /cophea/copheaserver/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+ERR: 无法加载控制器:Index
+
+[ 2014-03-10T20:09:03+08:00 ] ::1 /cophea/copheaserver/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+ERR: 无法加载控制器:Index
+
+[ 2014-03-10T20:09:24+08:00 ] ::1 /cophea/copheaserver/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2014-03-10T20:11:06+08:00 ] ::1 /cophea/copheaserver/api/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000072s ]
+
+[ 2014-03-10T20:11:51+08:00 ] ::1 /cophea/copheaserver/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000136s ]
+
+[ 2014-03-10T20:19:36+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+
+[ 2014-03-10T20:21:15+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+
+[ 2014-03-10T20:30:26+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin?jsonpcallback=jQuery19109839388756081462_1394454622496
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+
+[ 2014-03-10T20:31:30+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin?jsonpcallback=jQuery19109839388756081462_1394454622496
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant UC_SYNC - assumed 'UC_SYNC' /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 210 行.
+NOTIC: [8] Use of undefined constant SITE_PATH - assumed 'SITE_PATH' /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 426 行.
+NOTIC: [2] include_once(SITE_PATH/api/uc_client/client.php): failed to open stream: No such file or directory /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 426 行.
+NOTIC: [2] include_once(): Failed opening 'SITE_PATH/api/uc_client/client.php' for inclusion (include_path='.:/usr/local/zend/share/ZendFramework/library:/usr/local/zend/share/pear') /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 426 行.
+
+[ 2014-03-10T20:32:52+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin?jsonpcallback=jQuery19109839388756081462_1394454622496
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 29 行.
+
+[ 2014-03-10T20:36:16+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin?jsonpcallback=jQuery19109839388756081462_1394454622496
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 29 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'adfa' or uname='adfa') AND is_del=0 ) LIMIT 1   [ RunTime:0.022876s ]
+
+[ 2014-03-10T20:38:16+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: login_email /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 27 行.
+NOTIC: [8] Undefined index: login_password /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 28 行.
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 29 行.
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 37 行.
+
+[ 2014-03-10T20:40:58+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: login_email /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 27 行.
+NOTIC: [8] Undefined index: login_password /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 28 行.
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 29 行.
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/LogsModel.class.php 第 36 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/LogsModel.class.php 第 81 行.
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/LogsModel.class.php 第 58 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 330 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 330 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 330 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 330 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 330 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 330 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 126 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 126 行.
+SQL: INSERT INTO `coph_x_logs` (`uid`,`uname`,`app_name`,`group`,`action`,`data`,`ctime`,`url`,`isAdmin`,`ip`,`keyword`) VALUES (null,null,'public',null,'login','a:1:{s:5:\"uname\";N;}',1394455258,'/cophea/copheaserver/api/Passport/doLogin',0,'0.0.0.0','') [ RunTime:0.064859s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `coph_x_logs` (`uid`,`uname`,`app_name`,`group`,`action`,`data`,`ctime`,`url`,`isAdmin`,`ip`,`keyword`) VALUES (null,null,'public',null,'login','a:1:{s:5:\"uname\";N;}',1394455258,'/cophea/copheaserver/api/Passport/doLogin',0,'0.0.0.0','')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000231s ]
+
+[ 2014-03-10T20:41:25+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = '111' or uname='111') AND is_del=0 ) LIMIT 1   [ RunTime:0.000508s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/LogsModel.class.php 第 36 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/LogsModel.class.php 第 81 行.
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/LogsModel.class.php 第 58 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 126 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 126 行.
+SQL: INSERT INTO `coph_x_logs` (`uid`,`uname`,`app_name`,`group`,`action`,`data`,`ctime`,`url`,`isAdmin`,`ip`,`keyword`) VALUES (null,null,'public',null,'login','a:1:{s:5:\"uname\";N;}',1394455285,'/cophea/copheaserver/api/Passport/doLogin',0,'0.0.0.0','') [ RunTime:0.003264s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `coph_x_logs` (`uid`,`uname`,`app_name`,`group`,`action`,`data`,`ctime`,`url`,`isAdmin`,`ip`,`keyword`) VALUES (null,null,'public',null,'login','a:1:{s:5:\"uname\";N;}',1394455285,'/cophea/copheaserver/api/Passport/doLogin',0,'0.0.0.0','')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000117s ]
+
+[ 2014-03-10T20:41:27+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = '111' or uname='111') AND is_del=0 ) LIMIT 1   [ RunTime:0.000496s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/LogsModel.class.php 第 36 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/LogsModel.class.php 第 81 行.
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/LogsModel.class.php 第 58 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 126 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 126 行.
+SQL: INSERT INTO `coph_x_logs` (`uid`,`uname`,`app_name`,`group`,`action`,`data`,`ctime`,`url`,`isAdmin`,`ip`,`keyword`) VALUES (null,null,'public',null,'login','a:1:{s:5:\"uname\";N;}',1394455287,'/cophea/copheaserver/api/Passport/doLogin',0,'0.0.0.0','') [ RunTime:0.000537s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `coph_x_logs` (`uid`,`uname`,`app_name`,`group`,`action`,`data`,`ctime`,`url`,`isAdmin`,`ip`,`keyword`) VALUES (null,null,'public',null,'login','a:1:{s:5:\"uname\";N;}',1394455287,'/cophea/copheaserver/api/Passport/doLogin',0,'0.0.0.0','')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000148s ]
+
+[ 2014-03-10T20:42:45+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = '111' or uname='111') AND is_del=0 ) LIMIT 1   [ RunTime:0.000526s ]
+
+[ 2014-03-10T20:43:04+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = '111' or uname='111') AND is_del=0 ) LIMIT 1   [ RunTime:0.000512s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/LogsModel.class.php 第 36 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/LogsModel.class.php 第 81 行.
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/LogsModel.class.php 第 58 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 126 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 126 行.
+SQL: INSERT INTO `coph_x_logs` (`uid`,`uname`,`app_name`,`group`,`action`,`data`,`ctime`,`url`,`isAdmin`,`ip`,`keyword`) VALUES (null,null,'public',null,'login','a:1:{s:5:\"uname\";N;}',1394455384,'/cophea/copheaserver/api/Passport/doLogin',0,'0.0.0.0','') [ RunTime:0.003307s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `coph_x_logs` (`uid`,`uname`,`app_name`,`group`,`action`,`data`,`ctime`,`url`,`isAdmin`,`ip`,`keyword`) VALUES (null,null,'public',null,'login','a:1:{s:5:\"uname\";N;}',1394455384,'/cophea/copheaserver/api/Passport/doLogin',0,'0.0.0.0','')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000138s ]
+
+[ 2014-03-10T20:44:28+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = '111' or uname='111') AND is_del=0 ) LIMIT 1   [ RunTime:0.000461s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/LogsModel.class.php 第 36 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/LogsModel.class.php 第 81 行.
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/LogsModel.class.php 第 58 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 126 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 126 行.
+SQL: INSERT INTO `coph_x_logs` (`uid`,`uname`,`app_name`,`group`,`action`,`data`,`ctime`,`url`,`isAdmin`,`ip`,`keyword`) VALUES (null,null,'public',null,'login','a:1:{s:5:\"uname\";N;}',1394455468,'/cophea/copheaserver/api/Passport/doLogin',0,'0.0.0.0','') [ RunTime:0.002975s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `coph_x_logs` (`uid`,`uname`,`app_name`,`group`,`action`,`data`,`ctime`,`url`,`isAdmin`,`ip`,`keyword`) VALUES (null,null,'public',null,'login','a:1:{s:5:\"uname\";N;}',1394455468,'/cophea/copheaserver/api/Passport/doLogin',0,'0.0.0.0','')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000160s ]
+
+[ 2014-03-10T20:44:47+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.025184s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.021454s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001604s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394455487) [ RunTime:0.044061s ]
+
+[ 2014-03-10T20:45:41+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002302s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001912s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394455541) [ RunTime:0.000335s ]
+
+[ 2014-03-10T20:46:38+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.016356s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.082420s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394455597) [ RunTime:0.000321s ]
+NOTIC: [8] Use of undefined constant ADDON_PATH - assumed 'ADDON_PATH' /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Common/function.php 第 27 行.
+NOTIC: [8] Use of undefined constant CORE_LIB_PATH - assumed 'CORE_LIB_PATH' /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Common/function.php 第 49 行.
+
+[ 2014-03-10T20:49:37+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.005778s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001998s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394455777) [ RunTime:0.000241s ]
+NOTIC: [8] Use of undefined constant CORE_LIB_PATH - assumed 'CORE_LIB_PATH' /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Common/function.php 第 49 行.
+
+[ 2014-03-10T20:49:39+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002821s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001542s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394455779) [ RunTime:0.000217s ]
+NOTIC: [8] Use of undefined constant CORE_LIB_PATH - assumed 'CORE_LIB_PATH' /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Common/function.php 第 49 行.
+
+[ 2014-03-10T20:50:41+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.006093s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001493s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394455841) [ RunTime:0.000184s ]
+NOTIC: [8] Use of undefined constant CORE_LIB_PATH - assumed 'CORE_LIB_PATH' /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Common/function.php 第 49 行.
+
+[ 2014-03-10T20:50:43+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002208s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001528s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394455843) [ RunTime:0.000214s ]
+NOTIC: [8] Use of undefined constant CORE_LIB_PATH - assumed 'CORE_LIB_PATH' /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Common/function.php 第 49 行.
+
+[ 2014-03-10T20:51:08+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.006158s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001421s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394455868) [ RunTime:0.000195s ]
+NOTIC: [2] require_once(__APP__/library/DES_MOBILE.php): failed to open stream: No such file or directory /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Common/function.php 第 27 行.
+
+[ 2014-03-10T20:51:26+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001575s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001439s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394455886) [ RunTime:0.000233s ]
+NOTIC: [8] Use of undefined constant CORE_LIB_PATH - assumed 'CORE_LIB_PATH' /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Common/function.php 第 49 行.
+
+[ 2014-03-10T20:51:36+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002403s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001520s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394455896) [ RunTime:0.000183s ]
+NOTIC: [2] require_once(/cophea/copheaserver/index.php/library/DES_MOBILE.php): failed to open stream: No such file or directory /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Common/function.php 第 27 行.
+
+[ 2014-03-10T20:51:55+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002016s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001755s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394455915) [ RunTime:0.000254s ]
+NOTIC: [2] require_once(/cophea/copheaserver/index.php/Api/library/DES_MOBILE.php): failed to open stream: No such file or directory /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Common/function.php 第 27 行.
+
+[ 2014-03-10T20:53:10+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.031317s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001492s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394455990) [ RunTime:0.000219s ]
+NOTIC: [8] Use of undefined constant CORE_LIB_PATH - assumed 'CORE_LIB_PATH' /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Common/function.php 第 49 行.
+
+[ 2014-03-10T20:53:21+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001512s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001680s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394456001) [ RunTime:0.000374s ]
+NOTIC: [2] require_once(/cophea/copheaserver/index.php/library/DES_MOBILE.php): failed to open stream: No such file or directory /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Common/function.php 第 27 行.
+
+[ 2014-03-10T20:53:44+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001596s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001562s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394456024) [ RunTime:0.000248s ]
+NOTIC: [2] require_once(/cophea/copheaserver/index.phpapp/Common/library/DES_MOBILE.php): failed to open stream: No such file or directory /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Common/function.php 第 27 行.
+
+[ 2014-03-10T20:53:57+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.005663s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001505s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394456037) [ RunTime:0.000178s ]
+NOTIC: [2] require_once(/cophea/copheaserver/index.php/app/Common/library/DES_MOBILE.php): failed to open stream: No such file or directory /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Common/function.php 第 27 行.
+
+[ 2014-03-10T20:54:27+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002249s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001810s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394456067) [ RunTime:0.000243s ]
+NOTIC: [2] require_once(/cophea/copheaserver/app/Common/library/DES_MOBILE.php): failed to open stream: No such file or directory /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Common/function.php 第 27 行.
+
+[ 2014-03-10T20:57:14+08:00 ] ::1 /cophea/copheaserver/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2014-03-10T20:57:18+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.049613s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001815s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394456238) [ RunTime:0.000223s ]
+NOTIC: [2] require_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Common/function.php 第 27 行.
+NOTIC: [2] require_once(http://localhost:10088/cophea/copheaserver/app/Common/library/DES_MOBILE.php): failed to open stream: no suitable wrapper could be found /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Common/function.php 第 27 行.
+
+[ 2014-03-10T20:59:06+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.008545s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001513s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394456346) [ RunTime:0.000209s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 339 行.
+
+[ 2014-03-10T21:00:36+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.006133s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001699s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394456436) [ RunTime:0.000216s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001904s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.125910s ]
+
+[ 2014-03-10T21:00:54+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.005985s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001453s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394456454) [ RunTime:0.000212s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 341 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001627s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000277s ]
+
+[ 2014-03-10T21:02:03+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002098s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001547s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394456523) [ RunTime:0.000283s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 341 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001628s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000360s ]
+
+[ 2014-03-10T21:02:17+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001695s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001374s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394456537) [ RunTime:0.000187s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 341 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001645s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000439s ]
+
+[ 2014-03-10T21:04:42+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.006013s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001401s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394456682) [ RunTime:0.000183s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 341 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001373s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000227s ]
+
+[ 2014-03-10T21:05:37+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.006006s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001595s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394456737) [ RunTime:0.000223s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 341 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001528s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000258s ]
+NOTIC: [8] Use of undefined constant CORE_LIB_PATH - assumed 'CORE_LIB_PATH' /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/CacheModel.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant CORE_LIB_PATH - assumed 'CORE_LIB_PATH' /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Common/function.php 第 49 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_cache` [ RunTime:0.053520s ]
+ERR: 1146:Table 'cophea2.coph_cache' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_cache`
+ERR: Think\Model:get方法不存在！
+
+[ 2014-03-10T21:08:05+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002072s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001383s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394456885) [ RunTime:0.000209s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 341 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001361s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000213s ]
+NOTIC: [8] Use of undefined constant CORE_LIB_PATH - assumed 'CORE_LIB_PATH' /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/CacheModel.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant CORE_LIB_PATH - assumed 'CORE_LIB_PATH' /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Common/function.php 第 49 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_cache` [ RunTime:0.001799s ]
+ERR: 1146:Table 'cophea2.coph_cache' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_cache`
+ERR: Think\Model:get方法不存在！
+
+[ 2014-03-10T21:08:07+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002196s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001584s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394456887) [ RunTime:0.000226s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 341 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001875s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000231s ]
+NOTIC: [8] Use of undefined constant CORE_LIB_PATH - assumed 'CORE_LIB_PATH' /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/CacheModel.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant CORE_LIB_PATH - assumed 'CORE_LIB_PATH' /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Common/function.php 第 49 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_cache` [ RunTime:0.002110s ]
+ERR: 1146:Table 'cophea2.coph_cache' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_cache`
+ERR: Think\Model:get方法不存在！
+
+[ 2014-03-10T21:08:11+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.005945s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001684s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394456891) [ RunTime:0.000241s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 341 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001512s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000252s ]
+NOTIC: [8] Use of undefined constant CORE_LIB_PATH - assumed 'CORE_LIB_PATH' /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/CacheModel.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant CORE_LIB_PATH - assumed 'CORE_LIB_PATH' /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Common/function.php 第 49 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_cache` [ RunTime:0.001398s ]
+ERR: 1146:Table 'cophea2.coph_cache' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_cache`
+ERR: Think\Model:get方法不存在！
+
+[ 2014-03-10T21:08:26+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.006373s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001491s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394456906) [ RunTime:0.000235s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 341 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001607s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000236s ]
+NOTIC: [8] Use of undefined constant CORE_LIB_PATH - assumed 'CORE_LIB_PATH' /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/CacheModel.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant CORE_LIB_PATH - assumed 'CORE_LIB_PATH' /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Common/function.php 第 49 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_cache` [ RunTime:0.003451s ]
+ERR: 1146:Table 'cophea2.coph_cache' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_cache`
+ERR: Think\Model:get方法不存在！
+
+[ 2014-03-10T21:08:35+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002325s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001537s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394456915) [ RunTime:0.000197s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 341 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001287s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000213s ]
+NOTIC: [8] Use of undefined constant CORE_LIB_PATH - assumed 'CORE_LIB_PATH' /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/CacheModel.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant CORE_LIB_PATH - assumed 'CORE_LIB_PATH' /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Common/function.php 第 49 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_cache` [ RunTime:0.003500s ]
+ERR: 1146:Table 'cophea2.coph_cache' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_cache`
+ERR: Think\Model:get方法不存在！
+
+[ 2014-03-10T21:08:53+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.005832s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001410s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394456933) [ RunTime:0.000172s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 341 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001796s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000269s ]
+
+[ 2014-03-10T21:09:07+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002102s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001314s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394456947) [ RunTime:0.000208s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 341 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001932s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000246s ]
+NOTIC: [8] Use of undefined constant CORE_LIB_PATH - assumed 'CORE_LIB_PATH' /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/CacheModel.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant CORE_LIB_PATH - assumed 'CORE_LIB_PATH' /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Common/function.php 第 49 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_cache` [ RunTime:0.003432s ]
+ERR: 1146:Table 'cophea2.coph_cache' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_cache`
+ERR: Think\Model:get方法不存在！
+
+[ 2014-03-10T21:10:35+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.006468s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001737s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394457035) [ RunTime:0.000181s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 341 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001527s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000223s ]
+
+[ 2014-03-10T21:12:01+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002575s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.002001s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394457121) [ RunTime:0.000253s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 341 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000439s ]
+NOTIC: [8] Undefined variable: user /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/UserModel.class.php 第 715 行.
+SQL: SELECT * FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000330s ]
+
+[ 2014-03-10T21:12:02+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002109s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001443s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394457122) [ RunTime:0.000251s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 341 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001839s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000332s ]
+NOTIC: [8] Undefined variable: user /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/UserModel.class.php 第 715 行.
+SQL: SELECT * FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000356s ]
+
+[ 2014-03-10T21:12:03+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001623s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001451s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394457123) [ RunTime:0.000225s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 341 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001773s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000270s ]
+NOTIC: [8] Undefined variable: user /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/UserModel.class.php 第 715 行.
+SQL: SELECT * FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000254s ]
+
+[ 2014-03-10T21:12:32+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001696s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001897s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394457152) [ RunTime:0.000206s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 341 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001281s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000208s ]
+NOTIC: [8] Undefined variable: user /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/UserModel.class.php 第 715 行.
+SQL: SELECT * FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000252s ]
+
+[ 2014-03-10T21:12:41+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.006098s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001621s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394457161) [ RunTime:0.000231s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 341 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001655s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000230s ]
+NOTIC: [8] Undefined variable: user /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/UserModel.class.php 第 715 行.
+SQL: SELECT * FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000237s ]
+
+[ 2014-03-10T21:13:22+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001817s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.002145s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394457202) [ RunTime:0.000427s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 341 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002259s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000254s ]
+NOTIC: [8] Undefined variable: user /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/UserModel.class.php 第 715 行.
+SQL: SELECT * FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000244s ]
+
+[ 2014-03-10T21:13:34+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.006278s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001330s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394457214) [ RunTime:0.000183s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 341 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001405s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000246s ]
+NOTIC: [8] Undefined variable: user /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/UserModel.class.php 第 715 行.
+SQL: SELECT * FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000232s ]
+
+[ 2014-03-10T21:15:59+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.039831s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001698s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394457359) [ RunTime:0.018047s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 341 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001983s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000276s ]
+NOTIC: [8] Undefined variable: user /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/UserModel.class.php 第 715 行.
+SQL: SELECT * FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000331s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/UserGroupLinkModel.class.php 第 70 行.
+ERR: Think\Model:findAll方法不存在！
+
+[ 2014-03-10T21:18:41+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.016925s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001642s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394457521) [ RunTime:0.017659s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 341 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001709s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000223s ]
+NOTIC: [8] Undefined variable: user /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/UserModel.class.php 第 715 行.
+SQL: SELECT * FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000335s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/UserGroupLinkModel.class.php 第 70 行.
+SQL: SELECT * FROM `coph_user_group_link` WHERE ( `uid` = '1' )  [ RunTime:0.056112s ]
+
+[ 2014-03-10T21:19:13+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.016181s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001273s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394457552) [ RunTime:0.018063s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 341 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001715s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000291s ]
+NOTIC: [8] Undefined variable: user /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/UserModel.class.php 第 715 行.
+SQL: SELECT * FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000323s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/UserGroupLinkModel.class.php 第 70 行.
+SQL: SELECT * FROM `coph_user_group_link` WHERE ( `uid` = '1' )  [ RunTime:0.012251s ]
+
+[ 2014-03-10T21:20:47+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002079s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001602s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394457647) [ RunTime:0.021850s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 341 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001775s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000236s ]
+NOTIC: [8] Undefined variable: user /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/UserModel.class.php 第 715 行.
+SQL: SELECT * FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000250s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/UserGroupLinkModel.class.php 第 70 行.
+SQL: SELECT * FROM `coph_user_group_link` WHERE ( `uid` = '1' )  [ RunTime:0.011597s ]
+
+[ 2014-03-10T21:21:56+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002078s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001565s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394457716) [ RunTime:0.000188s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 340 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001585s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000224s ]
+NOTIC: [8] Undefined variable: user /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/UserModel.class.php 第 715 行.
+SQL: SELECT * FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000283s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/UserGroupLinkModel.class.php 第 70 行.
+SQL: SELECT * FROM `coph_user_group_link` WHERE ( `uid` = '1' )  [ RunTime:0.000279s ]
+ERR: Think\Model:findAll方法不存在！
+
+[ 2014-03-10T21:22:17+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001864s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001734s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394457737) [ RunTime:0.000224s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 340 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001822s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000241s ]
+NOTIC: [8] Undefined variable: user /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/UserModel.class.php 第 715 行.
+SQL: SELECT * FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000260s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/UserGroupLinkModel.class.php 第 70 行.
+SQL: SELECT * FROM `coph_user_group_link` WHERE ( `uid` = '1' )  [ RunTime:0.000166s ]
+SQL: SELECT * FROM `coph_user_group` WHERE ( `user_group_id` IN ('1') )  [ RunTime:0.066549s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001599s ]
+SQL: UPDATE `coph_login_record` SET `ip`='0.0.0.0',`ctime`=1394457737,`locktime`=0 WHERE ( uid = 1 ) [ RunTime:0.072249s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000137s ]
+
+[ 2014-03-10T21:23:00+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002164s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.002042s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394457780) [ RunTime:0.000588s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 340 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002317s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.018166s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001574s ]
+SQL: UPDATE `coph_login_record` SET `ip`='0.0.0.0',`ctime`=1394457780,`locktime`=0 WHERE ( uid = 1 ) [ RunTime:0.000242s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000200s ]
+
+[ 2014-03-10T21:24:25+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.012696s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.023728s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.014931s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001783s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394457865) [ RunTime:0.003595s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 340 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001721s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.003033s ]
+SQL: UPDATE `coph_login_record` SET `ip`='0.0.0.0',`ctime`=1394457865,`locktime`=0 WHERE ( uid = 1 ) [ RunTime:0.016853s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000115s ]
+
+[ 2014-03-10T21:25:03+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025882s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.014764s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001981s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001792s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394457903) [ RunTime:0.009564s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 340 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002345s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001972s ]
+SQL: UPDATE `coph_login_record` SET `ip`='0.0.0.0',`ctime`=1394457903,`locktime`=0 WHERE ( uid = 1 ) [ RunTime:0.016475s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019359s ]
+
+[ 2014-03-10T21:25:22+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.048080s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.049654s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394457922) [ RunTime:0.000378s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 340 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001937s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001836s ]
+SQL: UPDATE `coph_login_record` SET `ip`='0.0.0.0',`ctime`=1394457922,`locktime`=0 WHERE ( uid = 1 ) [ RunTime:0.000277s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2014-03-10T21:27:27+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.096079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020487s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.571033s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.418514s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.100045s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.304050s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394458044) [ RunTime:0.124376s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 340 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.123653s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.172104s ]
+SQL: UPDATE `coph_login_record` SET `ip`='0.0.0.0',`ctime`=1394458045,`locktime`=0 WHERE ( uid = 1 ) [ RunTime:0.072935s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.050027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.050422s ]
+
+[ 2014-03-10T21:28:53+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.008327s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.018172s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.002531s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES ('1','0.0.0.0',1394458133) [ RunTime:0.000315s ]
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 340 行.
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001812s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `coph_login_record` WHERE ( `uid` = '1' ) AND ( `ctime` >= 1394380800 ) LIMIT 1   [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002058s ]
+SQL: UPDATE `coph_login_record` SET `ip`='0.0.0.0',`ctime`=1394458133,`locktime`=0 WHERE ( uid = 1 ) [ RunTime:0.000587s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2014-03-10T21:38:26+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: info /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 49 行.
+NOTIC: [8] Undefined variable: status /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 49 行.
+
+[ 2014-03-10T21:38:28+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined variable: info /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 49 行.
+NOTIC: [8] Undefined variable: status /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 49 行.
+
+[ 2014-03-10T22:47:26+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.338658s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T22:47:50+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.002407s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T22:47:57+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+
+[ 2014-03-10T22:48:05+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.001889s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T22:48:35+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.051084s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T22:48:36+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.001611s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T22:49:08+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.224112s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T22:49:09+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.016616s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T22:49:32+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.001788s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T22:49:34+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.001798s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T22:49:51+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+
+[ 2014-03-10T22:49:59+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.001770s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T22:50:42+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+
+[ 2014-03-10T22:50:52+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+
+[ 2014-03-10T22:51:04+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.002365s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T22:51:51+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.023076s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T22:51:56+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+NOTIC: [8] Array to string conversion /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 47 行.
+NOTIC: [8] Array to string conversion /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php 第 48 行.
+
+[ 2014-03-10T22:52:29+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+
+[ 2014-03-10T22:52:48+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+
+[ 2014-03-10T22:52:50+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined index: login_remember /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 31 行.
+
+[ 2014-03-10T22:53:59+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+
+[ 2014-03-10T22:54:00+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+
+[ 2014-03-10T22:55:08+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+
+[ 2014-03-10T22:55:39+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+
+[ 2014-03-10T22:55:46+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+
+[ 2014-03-10T22:57:46+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.105265s ]
+
+[ 2014-03-10T23:00:13+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.009029s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.094537s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.022212s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.003162s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES (1,'0.0.0.0',1394463613) [ RunTime:0.063776s ]
+
+[ 2014-03-10T23:01:55+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.022032s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.109681s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.050867s ]
+
+[ 2014-03-10T23:01:58+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.080500s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000267s ]
+
+[ 2014-03-10T23:04:45+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.009004s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002323s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000272s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.001531s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T23:04:55+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002386s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000255s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.001580s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T23:04:58+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002415s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000292s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.001757s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T23:05:10+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002224s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000274s ]
+
+[ 2014-03-10T23:05:54+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001828s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000214s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.003476s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T23:09:22+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.021590s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000283s ]
+
+[ 2014-03-10T23:15:43+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.045891s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.109634s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.039986s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.065116s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T23:15:58+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.015743s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002716s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.013860s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.020050s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T23:16:06+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.031352s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000251s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.004824s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T23:16:10+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.016713s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000338s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.002061s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T23:16:11+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001959s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000249s ]
+
+[ 2014-03-10T23:16:13+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002100s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000275s ]
+
+[ 2014-03-10T23:16:21+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002656s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000284s ]
+
+[ 2014-03-10T23:17:46+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.009005s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.018739s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.019936s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.001863s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T23:18:07+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.005945s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.003025s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.024714s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.009537s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T23:18:09+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002419s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000279s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.001736s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T23:18:09+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002285s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000257s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.001617s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T23:18:11+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002422s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000267s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.016003s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T23:18:13+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001950s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002122s ]
+SQL: INSERT INTO `coph_login_record` (`locktime`,`ip`,`ctime`,`uid`) VALUES (1394468293,'0.0.0.0',1394464693,1) [ RunTime:0.011232s ]
+
+[ 2014-03-10T23:18:44+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002190s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000297s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.001764s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T23:18:52+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001759s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000279s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.001890s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T23:18:54+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000129s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.007684s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000331s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.018029s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T23:19:24+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002052s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000310s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.002347s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T23:19:26+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002131s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000309s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.001821s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T23:19:27+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002242s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001830s ]
+SQL: INSERT INTO `coph_login_record` (`locktime`,`ip`,`ctime`,`uid`) VALUES (1394468367,'0.0.0.0',1394464767,1) [ RunTime:0.000316s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.017629s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T23:19:30+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002339s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000258s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.001368s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T23:19:31+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.016012s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000329s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.001552s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T23:19:31+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002131s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000320s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 39 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `coph_logs` [ RunTime:0.001848s ]
+ERR: 1146:Table 'cophea2.coph_logs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coph_logs`
+ERR: Think\Model:load方法不存在！
+
+[ 2014-03-10T23:31:10+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.021016s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.170634s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.033540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010161s ]
+
+[ 2014-03-10T23:31:13+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.032735s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000114s ]
+
+[ 2014-03-10T23:31:23+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002476s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.001978s ]
+SQL: INSERT INTO `coph_login_record` (`locktime`,`ip`,`ctime`,`uid`) VALUES (1394469083,'0.0.0.0',1394465483,1) [ RunTime:0.095791s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000118s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000174s ]
+
+[ 2014-03-10T23:31:40+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002381s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000189s ]
+
+[ 2014-03-10T23:31:42+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002611s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000140s ]
+
+[ 2014-03-10T23:31:59+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002084s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000140s ]
+
+[ 2014-03-10T23:33:58+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.020406s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.029289s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.020645s ]
+ERR: Think\Model:findAll方法不存在！
+
+[ 2014-03-10T23:37:38+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.010372s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.018361s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.009298s ]
+SQL: SELECT * FROM `coph_system_data` ORDER BY id ASC  [ RunTime:0.040515s ]
+NOTIC: [8] unserialize(): Unexpected end of serialized data /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/XdataModel.class.php 第 72 行.
+NOTIC: [8] unserialize(): Error at offset 295 of 298 bytes /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/XdataModel.class.php 第 72 行.
+NOTIC: [8] unserialize(): Unexpected end of serialized data /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/XdataModel.class.php 第 72 行.
+NOTIC: [8] unserialize(): Error at offset 295 of 298 bytes /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/XdataModel.class.php 第 72 行.
+NOTIC: [8] unserialize(): Unexpected end of serialized data /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/XdataModel.class.php 第 72 行.
+NOTIC: [8] unserialize(): Error at offset 295 of 298 bytes /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/XdataModel.class.php 第 72 行.
+NOTIC: [8] unserialize(): Unexpected end of serialized data /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/XdataModel.class.php 第 72 行.
+NOTIC: [8] unserialize(): Error at offset 295 of 298 bytes /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/XdataModel.class.php 第 72 行.
+NOTIC: [8] unserialize(): Unexpected end of serialized data /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/XdataModel.class.php 第 72 行.
+NOTIC: [8] unserialize(): Error at offset 295 of 298 bytes /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/XdataModel.class.php 第 72 行.
+NOTIC: [8] unserialize(): Unexpected end of serialized data /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/XdataModel.class.php 第 72 行.
+NOTIC: [8] unserialize(): Error at offset 295 of 298 bytes /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/XdataModel.class.php 第 72 行.
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/NotifyModel.class.php 第 26 行.
+NOTIC: [8] Use of undefined constant SITE_URL - assumed 'SITE_URL' /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/NotifyModel.class.php 第 28 行.
+NOTIC: [2] Missing argument 3 for Common\Model\NotifyModel::sendNotify(), called in /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php on line 69 and defined /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/NotifyModel.class.php 第 42 行.
+NOTIC: [2] Missing argument 4 for Common\Model\NotifyModel::sendNotify(), called in /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/PassportModel.class.php on line 69 and defined /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/NotifyModel.class.php 第 42 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000105s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000145s ]
+
