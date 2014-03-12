@@ -172,7 +172,7 @@ function CheckPermission($load = '', $action = '', $group = ''){
     if(empty($load) || empty($action)) {
         return false;
     }
-    $Permission = ('Permission')->load($load);
+    $Permission = D('Permission')->load($load);
     if(!empty($group)){
         return $Permission->group($group)->check($action);
     }
