@@ -2,7 +2,7 @@
 return array(
 	//'配置项'=>'配置值'
 	'DEFAULT_C_LAYER'=>'Action',
-	'MODULE_ALLOW_LIST'    =>    array('Home','api'),
+	'MODULE_ALLOW_LIST'    =>    array('Home','api','Test'),
 	'DEFAULT_MODULE'       =>    'Home',
 
 	//数据库

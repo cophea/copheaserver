@@ -86,10 +86,10 @@ class AccountAction extends Action
 	 * @return json 返回操作后的JSON信息数据
 	 */
     public function doModifyPassword() {
-    	/*
-    	$_POST['oldpassword'] = t($_POST['oldpassword']);
-    	$_POST['password'] = t($_POST['password']);
-    	$_POST['repassword'] = t($_POST['repassword']);
+    	$_POST = getRequest();
+    	$_POST['oldpassword'] = I('post.oldpassword');
+    	$_POST['password'] = I('post.password');
+    	$_POST['repassword'] = I('post.repassword');
     	// 验证信息
     	if ($_POST['oldpassword'] === '') {
     		$this->ajaxReturn(array('data'=>null,'info'=>'请填写原始密码','status'=>0),'JSONP');
@@ -126,7 +126,7 @@ class AccountAction extends Action
     		$info = L('PUBLIC_ORIGINAL_PASSWORD_ERROR');			// 原始密码错误
     	}
     	return $this->ajaxReturn(null, $info, $res);
-    	*/
+    	
     	$this->ajaxReturn(array('data'=>null,'info'=>'','status'=>1));
     }
 
