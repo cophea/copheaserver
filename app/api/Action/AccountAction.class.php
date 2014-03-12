@@ -1,8 +1,8 @@
 <?php
 /**
  * 账号设置控制器
- * @author liuxiaoqing <liuxiaoqing@zhishisoft.com>
- * @version TS3.0
+ * @author jliu <jliu@cophea.com>
+ * @version cophea 2.0
  */
 namespace api\Action;
 use Think\Action;
@@ -130,8 +130,19 @@ class AccountAction extends Action
     	$this->ajaxReturn(array('data'=>null,'info'=>'','status'=>1));
     }
 
-    //开通子账号
-    public function subAccout(){
+    /**
+	 * 开通子账号
+	 * @return json 返回操作后的JSON信息数据
+	 */
+    public function enableSubAccount(){
+
+    }
+
+    /**
+	 * 关闭子账号
+	 * @return json 返回操作后的JSON信息数据
+	 */
+    public function disableSubAccont(){
 
     }
 

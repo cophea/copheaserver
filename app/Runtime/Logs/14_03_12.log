@@ -3786,3 +3786,114 @@ SQL: INSERT INTO `coph_x_logs` (`uid`,`uname`,`app_name`,`group`,`action`,`data`
 ERR: 1054:Unknown column 'corp_id' in 'field list'
  [ SQL语句 ] : INSERT INTO `coph_x_logs` (`uid`,`uname`,`app_name`,`group`,`action`,`data`,`ctime`,`url`,`isAdmin`,`ip`,`keyword`,`corp_id`) VALUES (null,null,'public',null,'logout','a:1:{s:5:\"uname\";N;}',1394592659,'/cophea/copheaserver/api/Passport/logout?callback=angular.callbacks._3',0,'0.0.0.0','',null)
 
+[ 2014-03-12T11:19:55+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin?callback=jQuery19107778043551370502_1394594380493
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.071140s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.068017s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.022134s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.003129s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES (1,'0.0.0.0',1394594395) [ RunTime:0.032462s ]
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SELECT `corp_id` FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000660s ]
+ERR: 1054:Unknown column 'corp_id' in 'field list'
+ [ SQL语句 ] : SELECT `corp_id` FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002361s ]
+SQL: UPDATE `coph_login_record` SET `ip`='0.0.0.0',`ctime`=1394594395,`locktime`=0 WHERE ( uid = 1 ) [ RunTime:0.092680s ]
+
+[ 2014-03-12T11:19:56+08:00 ] ::1 /cophea/copheaserver/api/Account/getmid?callback=angular.callbacks._1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+
+[ 2014-03-12T11:19:56+08:00 ] ::1 /cophea/copheaserver/api/Account/getsite?callback=angular.callbacks._0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+
+[ 2014-03-12T11:19:56+08:00 ] ::1 /cophea/copheaserver/api/Account/getuser?callback=angular.callbacks._2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+
+[ 2014-03-12T11:27:05+08:00 ] ::1 /cophea/copheaserver/api/Passport/logout?callback=angular.callbacks._3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Api/Action/PassportAction.class.php 第 53 行.
+NOTIC: [8] Undefined offset: 1 /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/LogsModel.class.php 第 36 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/LogsModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: ts /usr/local/zend/apache2/htdocs/cophea/copheaserver/app/Common/Model/LogsModel.class.php 第 58 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 330 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 330 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 330 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 330 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 330 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 330 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 126 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 126 行.
+SQL: INSERT INTO `coph_x_logs` (`uid`,`uname`,`app_name`,`group`,`action`,`data`,`ctime`,`url`,`isAdmin`,`ip`,`keyword`,`corp_id`) VALUES (null,null,'public',null,'logout','a:1:{s:5:\"uname\";N;}',1394594825,'/cophea/copheaserver/api/Passport/logout?callback=angular.callbacks._3',0,'0.0.0.0','',null) [ RunTime:0.016316s ]
+ERR: 1054:Unknown column 'corp_id' in 'field list'
+ [ SQL语句 ] : INSERT INTO `coph_x_logs` (`uid`,`uname`,`app_name`,`group`,`action`,`data`,`ctime`,`url`,`isAdmin`,`ip`,`keyword`,`corp_id`) VALUES (null,null,'public',null,'logout','a:1:{s:5:\"uname\";N;}',1394594825,'/cophea/copheaserver/api/Passport/logout?callback=angular.callbacks._3',0,'0.0.0.0','',null)
+
+[ 2014-03-12T12:03:59+08:00 ] ::1 /cophea/copheaserver/api/Passport/doLogin?callback=jQuery19102983904911670834_1394594827039
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SELECT * FROM `coph_user` WHERE ( (login = 'admin@admin.com' or email='admin@admin.com') AND is_del=0 ) LIMIT 1   [ RunTime:0.015725s ]
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002579s ]
+SQL: SELECT `locktime` FROM `coph_login_record` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `coph_login_logs` [ RunTime:0.001313s ]
+SQL: INSERT INTO `coph_login_logs` (`uid`,`ip`,`ctime`) VALUES (1,'0.0.0.0',1394597039) [ RunTime:0.039129s ]
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+NOTIC: [2] mysql_error() expects parameter 1 to be resource, integer given /usr/local/zend/apache2/htdocs/cophea/copheaserver/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 100 行.
+SQL: SELECT `corp_id` FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000641s ]
+ERR: 1054:Unknown column 'corp_id' in 'field list'
+ [ SQL语句 ] : SELECT `corp_id` FROM `coph_user` WHERE ( `uid` = 1 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `coph_login_record` [ RunTime:0.002308s ]
+SQL: UPDATE `coph_login_record` SET `ip`='0.0.0.0',`ctime`=1394597039,`locktime`=0 WHERE ( uid = 1 ) [ RunTime:0.000333s ]
+
+[ 2014-03-12T12:04:00+08:00 ] ::1 /cophea/copheaserver/api/Account/getsite?callback=angular.callbacks._0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+
+[ 2014-03-12T12:04:00+08:00 ] ::1 /cophea/copheaserver/api/Account/getmid?callback=angular.callbacks._1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+
+[ 2014-03-12T12:04:00+08:00 ] ::1 /cophea/copheaserver/api/Account/getuser?callback=angular.callbacks._2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+

@@ -1,9 +1,11 @@
 <?php
 /**
  * 权限模型 - 业务逻辑模型
- * @author jason <yangjs17@yeah.net>
- * @version TS3.0
+ * @author jliu <jliu@cophea.com>
+ * @version cophea 2.0
  */
+namespace Common\Model;
+use Think\Model;
 class PermissionModel {
 	
 	static protected $permission = array();			// 当前用户所具有的权限列表
@@ -18,6 +20,7 @@ class PermissionModel {
 		if(empty($this->option['app']) || empty($this->option['module'])) {
 			return false;
 		}
+		/*
 		// 判断是否为扩展应用
 		if(!in_array($this->option['app'], array('core'))) {
 			// 判断应用是否关闭
@@ -26,8 +29,8 @@ class PermissionModel {
 				return false;
 			}
 		}
-		
-		$permission = $this->loadRule($GLOBALS['ts']['mid']);
+		*/
+		$permission = $this->loadRule(intval($_SESSION['mid']));
 		if(isset($permission[$this->option['app']][$this->option['module']][$action])) {
 			return true;
 		}
@@ -69,10 +72,10 @@ class PermissionModel {
 		}
 		
 		if(empty(self::$permission[$uid])) {
-			$permission = model('Cache')->get('perm_user_'.$uid);
-			if(!$permission) {
-				$userGroupids = model('UserGroupLink')->getUserGroup($uid);	
-				$userGroupids[$uid] && $userGroup = model('UserGroup')->getUserGroup($userGroupids[$uid]);
+			//$permission = model('Cache')->get('perm_user_'.$uid);
+			//if(!$permission) {
+				$userGroupids = D('UserGroupLink')->getUserGroup($uid);	
+				$userGroupids[$uid] && $userGroup = D('UserGroup')->getUserGroup($userGroupids[$uid]);
 				$permission = array();
 				// 先处理应用内的用户组
 				if(!empty($this->option['group'])) {
@@ -96,8 +99,8 @@ class PermissionModel {
 						}
 					}
 				}
-				model('Cache')->set('perm_user_'.$uid, $permission, 600);
-			}
+				//model('Cache')->set('perm_user_'.$uid, $permission, 600);
+			//}
 			self::$permission[$uid] = $permission;
 		}
 

@@ -162,4 +162,22 @@ function getRequest(){
     return json_decode(file_get_contents("php://input"),true);
 }
 
+/**
+ * 验证权限方法
+ * @param string $load 应用 - 模块 字段
+ * @param string $action 权限节点字段
+ * @param unknown_type $group 是否指定应用内部用户组
+ */
+function CheckPermission($load = '', $action = '', $group = ''){
+    if(empty($load) || empty($action)) {
+        return false;
+    }
+    $Permission = ('Permission')->load($load);
+    if(!empty($group)){
+        return $Permission->group($group)->check($action);
+    }
+
+    return $Permission->check($action);
+}
+
 ?>

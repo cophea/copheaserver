@@ -2,8 +2,10 @@
 /**
  * 会员卡类型模型 - 数据对象模型
  * @author jliu <jliu@cophea.com>
- * @version Cophea 1.0
+ * @version cophea 2.0
  */
+namespace Common\Model;
+use Think\Model;
 class CardCategoryModel extends Model{
 	protected $tableName = 'card_category';
 	protected $fields = array(0=>'cardcategory_id',1=>'name',2=>'is_del',3=>'description',4=>'corp_id',5=>'department_id',6=>'ctime',7=>'rule',8=>'image');
