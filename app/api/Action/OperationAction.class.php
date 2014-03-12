@@ -17,5 +17,11 @@ class OperationAction extends Action{
 
 	}
 	
+ 	/**
+ 	 * 会员查询操作
+ 	 */
+ 	public function doQuery(){
+ 		
+ 	}
 
 }
